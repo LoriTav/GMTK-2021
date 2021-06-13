@@ -20,6 +20,8 @@ public class TurnBasedSystem : MonoBehaviour
 
     public GameObject boss;
     public GameObject player;
+    public GameObject winScreen;
+    public GameObject loseScreen;
 
     private bool bossTurn;
 
@@ -42,6 +44,7 @@ public class TurnBasedSystem : MonoBehaviour
             {
                 player.GetComponent<Health>().isDead = true;
                 state = States.LOST;
+                loseScreen.SetActive(true);
             }
 
             //check for boss death
@@ -76,6 +79,7 @@ public class TurnBasedSystem : MonoBehaviour
             {
                 boss.GetComponent<Health>().isDead = true;
                 state = States.WON;
+                winScreen.SetActive(true);
             }
         }
 
