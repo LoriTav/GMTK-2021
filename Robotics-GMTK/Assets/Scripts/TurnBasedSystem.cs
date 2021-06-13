@@ -20,10 +20,14 @@ public class TurnBasedSystem : MonoBehaviour
 
     public GameObject boss;
     public GameObject player;
+
+    private bool bossTurn;
+
     // Start is called before the first frame update
     void Start()
     {
         state = States.PLAYER;
+        bossTurn = false;
     }
 
     // Update is called once per frame
@@ -66,7 +70,6 @@ public class TurnBasedSystem : MonoBehaviour
                     state = States.BOSS;
                 }
             }
-
             else
             {
                 boss.GetComponent<Health>().isDead = true;
@@ -74,8 +77,9 @@ public class TurnBasedSystem : MonoBehaviour
             }
         }
 
-        if(state == States.BOSS)
+        if(state == States.BOSS && bossTurn == false)
         {
+            bossTurn = true;
             StartCoroutine(BossMove());
         }
     }
@@ -119,6 +123,7 @@ public class TurnBasedSystem : MonoBehaviour
             }
 
             state = States.PLAYER;
+            bossTurn = false;
         }
 
     }

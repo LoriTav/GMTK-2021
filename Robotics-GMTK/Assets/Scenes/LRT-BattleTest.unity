@@ -1709,7 +1709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 908a533ca7f6b464f9b90fffbcd87209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalHP: 100
+  totalHP: 1000
   currentHP: 0
   barFillPercent: 0
   barFillTotal: 1
