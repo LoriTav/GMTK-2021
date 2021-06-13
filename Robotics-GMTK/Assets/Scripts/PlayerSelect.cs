@@ -56,10 +56,5 @@ public class PlayerSelect : MonoBehaviour
                 currentPlace = place3;
             }
         }
-
-        if(Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
-        {
-           SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
-        }
     }
 }
