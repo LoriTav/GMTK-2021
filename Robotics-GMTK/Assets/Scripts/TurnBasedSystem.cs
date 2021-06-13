@@ -28,6 +28,8 @@ public class TurnBasedSystem : MonoBehaviour
     {
         state = States.PLAYER;
         bossTurn = false;
+
+        bossAttack1 = GameManager.ChosenBossAttack / 3;
     }
 
     // Update is called once per frame

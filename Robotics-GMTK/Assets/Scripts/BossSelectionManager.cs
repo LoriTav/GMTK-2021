@@ -149,6 +149,7 @@ public class BossSelectionManager : MonoBehaviour
             combinedHealth = bossMaxHealth;
 
         BossHealthBar.fillAmount = Mathf.Clamp((float)combinedHealth / (float)bossMaxHealth, 0, 1f);
+        GameManager.ChosenBossHealth = combinedHealth;
     }
 
     void CalculateCombinedAttack()
@@ -164,6 +165,7 @@ public class BossSelectionManager : MonoBehaviour
             combinedAtk = bossMaxAtk;
 
         BossAtkBar.fillAmount = Mathf.Clamp((float)combinedAtk / (float)bossMaxAtk, 0, 1f);
+        GameManager.ChosenBossAttack = combinedAtk;
     }
 
     void CalculateCombinedDefense()
@@ -179,5 +181,6 @@ public class BossSelectionManager : MonoBehaviour
             combinedDef = bossMaxDef;
 
         BossDefBar.fillAmount = Mathf.Clamp((float)combinedDef / (float)bossMaxDef, 0, 1f);
-    }
+        GameManager.ChosenBossDef = combinedDef;
+       }
 }
