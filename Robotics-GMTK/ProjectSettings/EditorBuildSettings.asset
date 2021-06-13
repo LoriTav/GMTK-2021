@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 5ead620469a8bf0409c200e185c0a731
+  - enabled: 1
+    path: Assets/Scenes/LRT-PlayerSelect.unity
+    guid: abd14fb57841d614ca8ba5174de7a1d6
+  - enabled: 1
+    path: Assets/Scenes/Boss Creator.unity
+    guid: 7bf3f903ae017584687e47aad4be1094
+  - enabled: 1
+    path: Assets/Scenes/LRT-BattleTest.unity
+    guid: 72aefea2293171a43bd47088a894d70d
   m_configObjects: {}
