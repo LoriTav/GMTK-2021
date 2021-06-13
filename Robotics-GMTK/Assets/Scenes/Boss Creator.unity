@@ -1134,7 +1134,7 @@ RectTransform:
   m_GameObject: {fileID: 358306767}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.25, y: 1.4999998, z: 1}
+  m_LocalScale: {x: 3, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 232553810}
   m_RootOrder: 0
@@ -1166,7 +1166,7 @@ MonoBehaviour:
   m_Sprite: {fileID: -6004748913229421030, guid: 374039bdd56c5274eae60caac9cd7bb8,
     type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1903,7 +1903,7 @@ RectTransform:
   m_GameObject: {fileID: 859419667}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.25, y: 1.4999998, z: 1}
+  m_LocalScale: {x: 3, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 232553810}
   m_RootOrder: 2
@@ -1935,7 +1935,7 @@ MonoBehaviour:
   m_Sprite: {fileID: 1897592438700134520, guid: 3ff5384caf8bb444a9d988bb67455618,
     type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1994,7 +1994,7 @@ RectTransform:
   m_GameObject: {fileID: 877644217}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.25, y: 1.4999998, z: 1}
+  m_LocalScale: {x: 3, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 232553810}
   m_RootOrder: 1
@@ -2026,7 +2026,7 @@ MonoBehaviour:
   m_Sprite: {fileID: -6158000942983504382, guid: c65266038173d1540b0806a322ef0b5c,
     type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -2220,7 +2220,7 @@ RectTransform:
   m_GameObject: {fileID: 993435055}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.25, y: 1.4999998, z: 1}
+  m_LocalScale: {x: 3, y: 1.4999998, z: 1}
   m_Children: []
   m_Father: {fileID: 248548216}
   m_RootOrder: 0
@@ -2252,7 +2252,7 @@ MonoBehaviour:
   m_Sprite: {fileID: -3386925689516794818, guid: 374039bdd56c5274eae60caac9cd7bb8,
     type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -2938,7 +2938,7 @@ RectTransform:
   m_GameObject: {fileID: 1398799645}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.25, y: 1.4999998, z: 1}
+  m_LocalScale: {x: 3, y: 1.4999998, z: 1}
   m_Children: []
   m_Father: {fileID: 248548216}
   m_RootOrder: 2
@@ -2970,7 +2970,7 @@ MonoBehaviour:
   m_Sprite: {fileID: -534953753684129662, guid: 3ff5384caf8bb444a9d988bb67455618,
     type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -3749,7 +3749,7 @@ RectTransform:
   m_GameObject: {fileID: 1735737978}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.25, y: 1.4999998, z: 1}
+  m_LocalScale: {x: 3, y: 1.4999998, z: 1}
   m_Children: []
   m_Father: {fileID: 248548216}
   m_RootOrder: 1
@@ -3781,7 +3781,7 @@ MonoBehaviour:
   m_Sprite: {fileID: -4772658146197475868, guid: c65266038173d1540b0806a322ef0b5c,
     type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
